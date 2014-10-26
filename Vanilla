@@ -1,0 +1,12 @@
+#Recipes remove
+recipes.remove(<minecraft:brewing_stand>);
+
+#recipes added
+
+recipes.addShaped(<minecraft:brewing_stand>,
+ [[null, <ExtraBees:honeyComb:30>, null],
+  [<ExtraBees:honeyComb:11>, <ExtraBees:honeyComb:11>, <ExtraBees:honeyComb:11>]]);
+
+recipes.addShaped(<minecraft:coal>,
+ [[<minecraft:coal:1>, <minecraft:coal:1>],
+  [<minecraft:coal:1>, <minecraft:coal:1>]]);
