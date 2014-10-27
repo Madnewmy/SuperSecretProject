@@ -14,6 +14,7 @@ recipes.remove(<Railcraft:tile.railcraft.machine.alpha:1>);
 recipes.remove(<Railcraft:tile.railcraft.machine.alpha:5>);
 recipes.remove(<Railcraft:tile.railcraft.machine.alpha:9>);
 recipes.remove(<Railcraft:tile.railcraft.machine.alpha:10>);
+recipes.remove(<Railcraft:tile.railcraft.machine.alpha:12>);
 
 #recipes
 
