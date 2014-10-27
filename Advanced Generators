@@ -1,0 +1,26 @@
+#adv generators remove
+recipes.remove(<advgenerators:IronFrame>);
+recipes.remove(<advgenerators:TurbineBlade>);
+recipes.remove(<advgenerators:IronTubing>);
+recipes.remove(<advgenerators:IronWiring>);
+
+#New recipes
+recipes.addShaped(<advgenerators:IronFrame>,
+ [[null, <ExtraBees:honeyComb:15>, null],
+  [<ExtraBees:honeyComb:15>, null, <ExtraBees:honeyComb:15>],
+  [null, <ExtraBees:honeyComb:15>, null]]);
+
+recipes.addShaped(<advgenerators:IronTubing> * 2,
+ [[<ExtraBees:honeyComb:15>, null, null],
+  [null, <ExtraBees:honeyComb:15>, null],
+  [null, null, <ExtraBees:honeyComb:15>]]);
+
+recipes.addShaped(<advgenerators:TurbineBlade * 2>,
+ [[<ExtraBees:honeyComb:15>, <ExtraBees:honeyComb:15>, <ExtraBees:honeyComb:15>],
+  [<ExtraBees:honeyComb:15>, <ExtraBees:honeyComb:15>, <ExtraBees:honeyComb:15>],
+  [null, <ExtraBees:honeyComb:15>, <ExtraBees:honeyComb:15>]]);
+
+recipes.addShaped(<advgenerators:IronWiring> * 2,
+ [[<ExtraBees:honeyComb:15>, <ExtraBees:honeyComb:12>, null],
+  [<ExtraBees:honeyComb:12>, <ExtraBees:honeyComb:15>, <ExtraBees:honeyComb:12>],
+  [null, <ExtraBees:honeyComb:12>, <ExtraBees:honeyComb:15>]]);
