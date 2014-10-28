@@ -5,4 +5,7 @@ recipes.addShapeless(<appliedenergistics2:ItemMultiMaterial:1>, [<appliedenergis
 #Skystone Recipe
 recipes.addShapeless(<appliedenergistics2:tile.BlockSkyStone>, [<ExtraBees:honeyComb:11>, <ExtraBees:honeyComb:11>, <ExtraBees:honeyComb:11>, <ExtraBees:honeyComb:11>, <ExtraBees:honeyComb:11>, <ExtraBees:honeyComb:11>, <ExtraBees:honeyComb:11>, <ExtraBees:honeyComb:11>]);
 #presses recipes
-recipes.addShapeless(<appliedenergistics2:tile.BlockSkyStone>, [<ExtraBees:honeyComb:11>, <ExtraBees:honeyComb:11>, <ExtraBees:honeyComb:11>, <ExtraBees:honeyComb:11>, <ExtraBees:honeyComb:11>, <ExtraBees:honeyComb:11>, <ExtraBees:honeyComb:11>, <ExtraBees:honeyComb:11>]);
+recipes.addShapeless(<appliedenergistics2:tile.BlockSkyStone>]);
+recipes.addShapeless(<appliedenergistics2:tile.BlockSkyStone>]);
+recipes.addShapeless(<appliedenergistics2:tile.BlockSkyStone>]);
+recipes.addShapeless(<appliedenergistics2:tile.BlockSkyStone>]);
