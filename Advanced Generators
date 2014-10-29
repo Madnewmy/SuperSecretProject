@@ -15,7 +15,7 @@ recipes.addShaped(<advgenerators:IronTubing> * 2,
   [null, <ExtraBees:honeyComb:15>, null],
   [null, null, <ExtraBees:honeyComb:15>]]);
 
-recipes.addShaped(<advgenerators:TurbineBlade * 2>,
+recipes.addShaped(<advgenerators:TurbineBlade> * 2,
  [[<ExtraBees:honeyComb:15>, <ExtraBees:honeyComb:15>, <ExtraBees:honeyComb:15>],
   [<ExtraBees:honeyComb:15>, <ExtraBees:honeyComb:15>, <ExtraBees:honeyComb:15>],
   [null, <ExtraBees:honeyComb:15>, <ExtraBees:honeyComb:15>]]);
