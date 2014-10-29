@@ -4,3 +4,8 @@ recipes.addShapeless(<appliedenergistics2:item.ItemMultiMaterial>, [<appliedener
 recipes.addShapeless(<appliedenergistics2:item.ItemMultiMaterial:1>, [<appliedenergistics2:item.ItemMultiMaterial:2>, <appliedenergistics2:item.ItemMultiMaterial:46>]);
 #Skystone Recipe
 recipes.addShapeless(<appliedenergistics2:tile.BlockSkyStone>, [<ExtraBees:honeyComb:11>, <ExtraBees:honeyComb:11>, <ExtraBees:honeyComb:11>, <ExtraBees:honeyComb:11>, <ExtraBees:honeyComb:11>, <ExtraBees:honeyComb:11>, <ExtraBees:honeyComb:11>, <ExtraBees:honeyComb:11>]);
+#presses recipes
+recipes.addShapeless(<appliedenergistics2:item.ItemMultiMaterial:19>, [<minecraft:iron_block>, <ore:itemSilicon>, <ExtraBees:honeyComb:26>]);
+recipes.addShapeless(<appliedenergistics2:item.ItemMultiMaterial:15>, [<minecraft:iron_block>, <minecraft:gold_ingot>, <ExtraBees:honeyComb:16>]);
+recipes.addShapeless(<appliedenergistics2:item.ItemMultiMaterial:14>, [<minecraft:iron_block>, <minecraft:diamond>, <ExtraBees:honeyComb:56>]);
+recipes.addShapeless(<appliedenergistics2:item.ItemMultiMaterial:13>, [<minecraft:iron_block>, <appliedenergistics2:item.ItemMultiMaterial>, <ExtraBees:honeyComb:81>]);
