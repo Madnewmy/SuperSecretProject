@@ -1,11 +1,6 @@
 #dust to quartz
-recipes.addShapeless(<appliedenergistics2:ItemMultiMaterial>, [<appliedenergistics2:ItemMultiMaterial:2>]);
+recipes.addShapeless(<appliedenergistics2:item.ItemMultiMaterial>, [<appliedenergistics2:item.ItemMultiMaterial:2>]);
 #Charged alternate recipes
-recipes.addShapeless(<appliedenergistics2:ItemMultiMaterial:1>, [<appliedenergistics2:ItemMultiMaterial:2>, <appliedenergistics2:ItemMultiMaterial:46>]);
+recipes.addShapeless(<appliedenergistics2:item.ItemMultiMaterial:1>, [<appliedenergistics2:item.ItemMultiMaterial:2>, <appliedenergistics2:item.ItemMultiMaterial:46>]);
 #Skystone Recipe
 recipes.addShapeless(<appliedenergistics2:tile.BlockSkyStone>, [<ExtraBees:honeyComb:11>, <ExtraBees:honeyComb:11>, <ExtraBees:honeyComb:11>, <ExtraBees:honeyComb:11>, <ExtraBees:honeyComb:11>, <ExtraBees:honeyComb:11>, <ExtraBees:honeyComb:11>, <ExtraBees:honeyComb:11>]);
-#presses recipes
-recipes.addShapeless(<appliedenergistics2:tile.BlockSkyStone>]);
-recipes.addShapeless(<appliedenergistics2:tile.BlockSkyStone>]);
-recipes.addShapeless(<appliedenergistics2:tile.BlockSkyStone>]);
-recipes.addShapeless(<appliedenergistics2:tile.BlockSkyStone>]);
