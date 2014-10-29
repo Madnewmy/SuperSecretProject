@@ -21,24 +21,29 @@ cfg Bees {
         Authority = Madnewmy
         Branch = "bee.applied"
         Products = DropsList( 
-            50% S:gendustry:”HoneyComb.silicon
+            50% S:gendustry:”HoneyComb.silicon"
             5% S:appliedenergistics2:item.ItemMultiMaterial:5
             )
         Specialty = DropsList()
         cfg Traits {
-            Speed=Fast
-            Lifespan=Short
-            Fertility=Normal
-            Temperature_Tolerance=
-            Nocturnal=
-            Humidity_Tolerance=
-            Tolerant_Flyer=
-            Cave_Dwelling=
-            Flower_Provider=
-            Flowering=
-            Territory=
-            Effect=
+            Speed=forestry.speedFast
+            Lifespan=forestry.lifespanShort
+            Fertility= forestry.fertilityNormal
+            Temperature_Tolerance= forestry.toleranceBoth1
+            Nocturnal= forestry.boolFalse
+            Humidity_Tolerance= forestry.toleranceNone
+            Tolerant_Flyer= forestry.boolFalse
+            Cave_Dwelling= forestry.boolTrue
+            Flower_Provider= forestry.flowersMushrooms
+            Flowering= forestry.floweringSlower
+            Territory= forestry.territoryDefault
+            Effect=forestry.effectNone
         }
     }
         
+        cfg Silicon Comb { 
+    ID = {number} // must be unique
+    PrimaryColor = {color}
+    SecondaryColor = {color}
+}
   
